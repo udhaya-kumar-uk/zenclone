@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+.zenclass{
+  margin: 0px auto;
+  max-width: 1280 px;
+  width: 100%;
+  background: #f7f5fc;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.zenheader{
+  width: 100%;
+  height: 80px;
+  background: #f7f5fc;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid #dedede;
+  box-sizing: border-box;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.linkcontainer{
+  display: flex;
+  justify-content: space-around;
+  min-width: 350px;
+}
+.linkcontainer >a {
+text-decoration: none;
+
+
+}
+.linkcontainer > a:hover{
+  background-color: #4b0dba;
+  color: #dedede;
+  font-weight: 500;
+
+}
+
+.zenlogo{
+  width: 80px;
+}
+
+.contentcontainer{
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  
+  
+  
+}
+.sidebar{
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  border: 1.5px solid #dedede;
+  
+  
+} 
+
+.sidebar > .branding {
+display: flex;
+align-items: center;
+}
+
+.zennav > ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  text-decoration: none;
+  
+  
+
+}
+
+.zennav >ul > li {
+  background-color: #f7f5fc;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+}
+
+.zennav >ul > li:hover {
+ color: #fff;
+ font-weight: 600;
+  background-color: #4b0dba;
+}
+
+.zennav >ul > li> a{
+  text-decoration: none;
+  color: black;
+}
+ 
+
+.zennav >ul > li> a:hover{
+  color: #fff;
+  font-weight: 600;
+  background-color: #4b0dba;
+}
+
+ .img{
+  box-sizing: border-box;
+  height: 40px;
+  width: 20x;
+  padding: 5px;
+ }
+
+ .contentarea{
+  height: 100%;
+  width: 100%;
+  background: #f7f5fc;
+  border-radius: 25px;
+
+ }
+
+ .profile{
+  height: 50px;
+  width: 50px;
+  background-color: wheat;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .profile:hover {
+  color: #fff;
+  background-color: #4b0dba;
+ }
